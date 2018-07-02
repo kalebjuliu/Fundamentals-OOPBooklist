@@ -69,5 +69,5 @@ document.getElementById('book-list').addEventListener('click',function(e){
     const ui = new UI();
     ui.deleteBook(e.target);
     ui.showAlert('Book removed', 'success');
-    e.preventDefault()
+    
 })
